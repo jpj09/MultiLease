@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Cardan.XCel</id>
+    <version>1.0.9.1</version>
+    <title>Xcel</title>
+    <authors>Rex Cardan, Ph.D.</authors>
+    <owners>Rex Cardan, Ph.D.</owners>
+    <iconUrl>https://dl.dropboxusercontent.com/u/7527702/CodeDeCardan_32x32png.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple wrapper around the EPPlus library that enables quick access to Excel rows as a list of dynamic values.</description>
+    <summary>A simple library to provide quick access to Excel data. Includes reading and writing.</summary>
+    <releaseNotes>A first draft of my simple library.</releaseNotes>
+    <copyright>Rex Cardan, 2014</copyright>
+    <language>en-US</language>
+    <tags>Excel</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

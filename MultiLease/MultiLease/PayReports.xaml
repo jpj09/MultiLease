@@ -1,0 +1,8 @@
+﻿<Window x:Class="MultiLease.PayReports"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PayReports" Height="571" Width="693">
+    <Grid>
+        <DataGrid x:Name="datagrid111" HorizontalAlignment="Left" Margin="10,0,0,39" VerticalAlignment="Bottom" Height="492" Width="654" ItemsSource="{Binding }" AutoGenerateColumns="True"   />
+    </Grid>
+</Window>
